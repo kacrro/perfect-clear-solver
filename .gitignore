@@ -1,0 +1,17 @@
+# Środowisko Pythona
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Tabele solvera (3,6 GB, liczone przy pierwszym uruchomieniu)
+tetris_pc/cache/
+
+# Ustawienia lokalne
+tetris_pc/config.json
+.claude/
+
+# Wyniki PyInstallera
+build/
+dist/
+*.spec
